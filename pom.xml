@@ -39,6 +39,17 @@
       <version>2.1</version>
       <scope>provided</scope>
     </dependency>
+
+   <!-- &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin
+         这个标签可以把依赖文件一起打包
+    &ndash;&gt;
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.3.0</version>
+    </dependency>-->
+
+
   </dependencies>
 
   <build>
@@ -60,6 +71,8 @@
         <filtering>false</filtering>
       </resource>
     </resources>
+
   </build>
+
 
 </project>
